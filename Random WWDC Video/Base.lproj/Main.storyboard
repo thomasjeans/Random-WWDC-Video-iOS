@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Random_WWDC_Video" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="shj-wr-TRm">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <button opaque="NO" alpha="0.94999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Gj-wU-Bh1">
+                                <rect key="frame" x="273" y="525" width="55" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="PU1-Dz-E1T"/>
+                                    <constraint firstAttribute="height" constant="55" id="TpJ-Os-Ys7"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="rwv-button-play"/>
+                                <connections>
+                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6wJ-O4-mvz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="shj-wr-TRm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="3gX-8d-JtC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="shj-wr-TRm" secondAttribute="trailing" constant="-20" id="C0A-N5-HfN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="shj-wr-TRm" secondAttribute="bottom" id="EVm-2x-WHr"/>
+                            <constraint firstItem="6Gj-wU-Bh1" firstAttribute="centerX" secondItem="shj-wr-TRm" secondAttribute="centerX" id="coI-F1-8gz"/>
+                            <constraint firstItem="shj-wr-TRm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ipL-F8-nCA"/>
+                            <constraint firstAttribute="bottom" secondItem="6Gj-wU-Bh1" secondAttribute="bottom" constant="20" symbolic="YES" id="rEr-fc-uEe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="shj-wr-TRm" id="Dwc-dC-bcm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="356"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rwv-button-play" width="50" height="50"/>
+    </resources>
+</document>

@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62303BC91CB5FD77009B03EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62303BC81CB5FD77009B03EF /* AppDelegate.swift */; };
+		62303BCB1CB5FD77009B03EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62303BCA1CB5FD77009B03EF /* ViewController.swift */; };
+		62303BCE1CB5FD77009B03EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62303BCC1CB5FD77009B03EF /* Main.storyboard */; };
+		62303BD01CB5FD77009B03EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62303BCF1CB5FD77009B03EF /* Assets.xcassets */; };
+		62303BD31CB5FD77009B03EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62303BD11CB5FD77009B03EF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62303BC51CB5FD77009B03EF /* Random WWDC Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random WWDC Video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62303BC81CB5FD77009B03EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62303BCA1CB5FD77009B03EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62303BCD1CB5FD77009B03EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62303BCF1CB5FD77009B03EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62303BD21CB5FD77009B03EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62303BD41CB5FD77009B03EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62303BC21CB5FD77009B03EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62303BBC1CB5FD77009B03EF = {
+			isa = PBXGroup;
+			children = (
+				62303BC71CB5FD77009B03EF /* Random WWDC Video */,
+				62303BC61CB5FD77009B03EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62303BC61CB5FD77009B03EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62303BC51CB5FD77009B03EF /* Random WWDC Video.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62303BC71CB5FD77009B03EF /* Random WWDC Video */ = {
+			isa = PBXGroup;
+			children = (
+				62303BC81CB5FD77009B03EF /* AppDelegate.swift */,
+				62303BCA1CB5FD77009B03EF /* ViewController.swift */,
+				62303BCC1CB5FD77009B03EF /* Main.storyboard */,
+				62303BCF1CB5FD77009B03EF /* Assets.xcassets */,
+				62303BD11CB5FD77009B03EF /* LaunchScreen.storyboard */,
+				62303BD41CB5FD77009B03EF /* Info.plist */,
+			);
+			path = "Random WWDC Video";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62303BC41CB5FD77009B03EF /* Random WWDC Video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62303BD71CB5FD77009B03EF /* Build configuration list for PBXNativeTarget "Random WWDC Video" */;
+			buildPhases = (
+				62303BC11CB5FD77009B03EF /* Sources */,
+				62303BC21CB5FD77009B03EF /* Frameworks */,
+				62303BC31CB5FD77009B03EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Random WWDC Video";
+			productName = "Random WWDC Video";
+			productReference = 62303BC51CB5FD77009B03EF /* Random WWDC Video.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62303BBD1CB5FD77009B03EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Thomas Jeans";
+				TargetAttributes = {
+					62303BC41CB5FD77009B03EF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 62303BC01CB5FD77009B03EF /* Build configuration list for PBXProject "Random WWDC Video" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62303BBC1CB5FD77009B03EF;
+			productRefGroup = 62303BC61CB5FD77009B03EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62303BC41CB5FD77009B03EF /* Random WWDC Video */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62303BC31CB5FD77009B03EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62303BD31CB5FD77009B03EF /* LaunchScreen.storyboard in Resources */,
+				62303BD01CB5FD77009B03EF /* Assets.xcassets in Resources */,
+				62303BCE1CB5FD77009B03EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62303BC11CB5FD77009B03EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62303BCB1CB5FD77009B03EF /* ViewController.swift in Sources */,
+				62303BC91CB5FD77009B03EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62303BCC1CB5FD77009B03EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62303BCD1CB5FD77009B03EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62303BD11CB5FD77009B03EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62303BD21CB5FD77009B03EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62303BD51CB5FD77009B03EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62303BD61CB5FD77009B03EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62303BD81CB5FD77009B03EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Random WWDC Video/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeansapplications.Random-WWDC-Video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62303BD91CB5FD77009B03EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Random WWDC Video/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeansapplications.Random-WWDC-Video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62303BC01CB5FD77009B03EF /* Build configuration list for PBXProject "Random WWDC Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62303BD51CB5FD77009B03EF /* Debug */,
+				62303BD61CB5FD77009B03EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62303BD71CB5FD77009B03EF /* Build configuration list for PBXNativeTarget "Random WWDC Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62303BD81CB5FD77009B03EF /* Debug */,
+				62303BD91CB5FD77009B03EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62303BBD1CB5FD77009B03EF /* Project object */;
+}
